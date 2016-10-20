@@ -7,6 +7,10 @@ namespace COMP1004_F2016_Mid_Term_200281238
 {
     public class Character
     {
+        public string FirstName { get; set; }
+
+        public string LastName { get; set; }
+
         public string Strength { get; set; }
 
         public string Dexterity { get; set; }

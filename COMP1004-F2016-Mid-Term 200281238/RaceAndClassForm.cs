@@ -1,4 +1,11 @@
-﻿using System;
+﻿/**
+ * Midterm Exam
+ * Jake Anstey 200281238
+ * October 20, 2016
+ * This app is the start to creating a Dungeons and Dragons game.
+ */
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
