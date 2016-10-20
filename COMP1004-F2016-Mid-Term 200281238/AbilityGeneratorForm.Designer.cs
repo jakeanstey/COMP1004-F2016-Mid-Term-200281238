@@ -61,12 +61,10 @@
             this.AbilityGroupBox.Controls.Add(this.DexterityLabel);
             this.AbilityGroupBox.Controls.Add(this.StrengthTextBox);
             this.AbilityGroupBox.Controls.Add(this.StrengthLabel);
-            this.AbilityGroupBox.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AbilityGroupBox.Location = new System.Drawing.Point(16, 15);
-            this.AbilityGroupBox.Margin = new System.Windows.Forms.Padding(4);
+            this.AbilityGroupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AbilityGroupBox.Location = new System.Drawing.Point(12, 12);
             this.AbilityGroupBox.Name = "AbilityGroupBox";
-            this.AbilityGroupBox.Padding = new System.Windows.Forms.Padding(4);
-            this.AbilityGroupBox.Size = new System.Drawing.Size(216, 569);
+            this.AbilityGroupBox.Size = new System.Drawing.Size(162, 462);
             this.AbilityGroupBox.TabIndex = 0;
             this.AbilityGroupBox.TabStop = false;
             this.AbilityGroupBox.Text = "Abilities";
@@ -74,32 +72,29 @@
             // CharismaTextBox
             // 
             this.CharismaTextBox.BackColor = System.Drawing.Color.White;
-            this.CharismaTextBox.Location = new System.Drawing.Point(9, 444);
-            this.CharismaTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.CharismaTextBox.Location = new System.Drawing.Point(7, 361);
             this.CharismaTextBox.Name = "CharismaTextBox";
             this.CharismaTextBox.ReadOnly = true;
-            this.CharismaTextBox.Size = new System.Drawing.Size(168, 31);
+            this.CharismaTextBox.Size = new System.Drawing.Size(127, 26);
             this.CharismaTextBox.TabIndex = 11;
             this.CharismaTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // CharismaLabel
             // 
             this.CharismaLabel.AutoSize = true;
-            this.CharismaLabel.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharismaLabel.Location = new System.Drawing.Point(9, 412);
-            this.CharismaLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.CharismaLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CharismaLabel.Location = new System.Drawing.Point(7, 335);
             this.CharismaLabel.Name = "CharismaLabel";
-            this.CharismaLabel.Size = new System.Drawing.Size(108, 23);
+            this.CharismaLabel.Size = new System.Drawing.Size(84, 20);
             this.CharismaLabel.TabIndex = 10;
             this.CharismaLabel.Text = "Charisma";
             // 
             // GenerateButton
             // 
-            this.GenerateButton.Font = new System.Drawing.Font("Lucida Sans", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GenerateButton.Location = new System.Drawing.Point(13, 503);
-            this.GenerateButton.Margin = new System.Windows.Forms.Padding(4);
+            this.GenerateButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GenerateButton.Location = new System.Drawing.Point(10, 409);
             this.GenerateButton.Name = "GenerateButton";
-            this.GenerateButton.Size = new System.Drawing.Size(184, 49);
+            this.GenerateButton.Size = new System.Drawing.Size(138, 40);
             this.GenerateButton.TabIndex = 1;
             this.GenerateButton.Text = "Generate";
             this.GenerateButton.UseVisualStyleBackColor = true;
@@ -108,120 +103,109 @@
             // WisdomTextBox
             // 
             this.WisdomTextBox.BackColor = System.Drawing.Color.White;
-            this.WisdomTextBox.Location = new System.Drawing.Point(9, 370);
-            this.WisdomTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.WisdomTextBox.Location = new System.Drawing.Point(7, 301);
             this.WisdomTextBox.Name = "WisdomTextBox";
             this.WisdomTextBox.ReadOnly = true;
-            this.WisdomTextBox.Size = new System.Drawing.Size(168, 31);
+            this.WisdomTextBox.Size = new System.Drawing.Size(127, 26);
             this.WisdomTextBox.TabIndex = 9;
             this.WisdomTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // WisdomLabel
             // 
             this.WisdomLabel.AutoSize = true;
-            this.WisdomLabel.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WisdomLabel.Location = new System.Drawing.Point(9, 338);
-            this.WisdomLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.WisdomLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WisdomLabel.Location = new System.Drawing.Point(7, 275);
             this.WisdomLabel.Name = "WisdomLabel";
-            this.WisdomLabel.Size = new System.Drawing.Size(92, 23);
+            this.WisdomLabel.Size = new System.Drawing.Size(72, 20);
             this.WisdomLabel.TabIndex = 8;
             this.WisdomLabel.Text = "Wisdom";
             // 
             // IntelligenceTextBox
             // 
             this.IntelligenceTextBox.BackColor = System.Drawing.Color.White;
-            this.IntelligenceTextBox.Location = new System.Drawing.Point(9, 297);
-            this.IntelligenceTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.IntelligenceTextBox.Location = new System.Drawing.Point(7, 241);
             this.IntelligenceTextBox.Name = "IntelligenceTextBox";
             this.IntelligenceTextBox.ReadOnly = true;
-            this.IntelligenceTextBox.Size = new System.Drawing.Size(168, 31);
+            this.IntelligenceTextBox.Size = new System.Drawing.Size(127, 26);
             this.IntelligenceTextBox.TabIndex = 7;
             this.IntelligenceTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // IntelligenceLabel
             // 
             this.IntelligenceLabel.AutoSize = true;
-            this.IntelligenceLabel.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.IntelligenceLabel.Location = new System.Drawing.Point(9, 265);
-            this.IntelligenceLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.IntelligenceLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.IntelligenceLabel.Location = new System.Drawing.Point(7, 215);
             this.IntelligenceLabel.Name = "IntelligenceLabel";
-            this.IntelligenceLabel.Size = new System.Drawing.Size(136, 23);
+            this.IntelligenceLabel.Size = new System.Drawing.Size(102, 20);
             this.IntelligenceLabel.TabIndex = 6;
             this.IntelligenceLabel.Text = "Intelligence";
             // 
             // ConstitutionTextBox
             // 
             this.ConstitutionTextBox.BackColor = System.Drawing.Color.White;
-            this.ConstitutionTextBox.Location = new System.Drawing.Point(9, 223);
-            this.ConstitutionTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.ConstitutionTextBox.Location = new System.Drawing.Point(7, 181);
             this.ConstitutionTextBox.Name = "ConstitutionTextBox";
             this.ConstitutionTextBox.ReadOnly = true;
-            this.ConstitutionTextBox.Size = new System.Drawing.Size(168, 31);
+            this.ConstitutionTextBox.Size = new System.Drawing.Size(127, 26);
             this.ConstitutionTextBox.TabIndex = 5;
             this.ConstitutionTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // ConstitutionLabel
             // 
             this.ConstitutionLabel.AutoSize = true;
-            this.ConstitutionLabel.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ConstitutionLabel.Location = new System.Drawing.Point(9, 191);
-            this.ConstitutionLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.ConstitutionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ConstitutionLabel.Location = new System.Drawing.Point(7, 155);
             this.ConstitutionLabel.Name = "ConstitutionLabel";
-            this.ConstitutionLabel.Size = new System.Drawing.Size(144, 23);
+            this.ConstitutionLabel.Size = new System.Drawing.Size(106, 20);
             this.ConstitutionLabel.TabIndex = 4;
             this.ConstitutionLabel.Text = "Constitution";
             // 
             // DexterityTextBox
             // 
             this.DexterityTextBox.BackColor = System.Drawing.Color.White;
-            this.DexterityTextBox.Location = new System.Drawing.Point(9, 149);
-            this.DexterityTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.DexterityTextBox.Location = new System.Drawing.Point(7, 121);
             this.DexterityTextBox.Name = "DexterityTextBox";
             this.DexterityTextBox.ReadOnly = true;
-            this.DexterityTextBox.Size = new System.Drawing.Size(168, 31);
+            this.DexterityTextBox.Size = new System.Drawing.Size(127, 26);
             this.DexterityTextBox.TabIndex = 3;
             this.DexterityTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // DexterityLabel
             // 
             this.DexterityLabel.AutoSize = true;
-            this.DexterityLabel.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DexterityLabel.Location = new System.Drawing.Point(9, 117);
-            this.DexterityLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.DexterityLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DexterityLabel.Location = new System.Drawing.Point(7, 95);
             this.DexterityLabel.Name = "DexterityLabel";
-            this.DexterityLabel.Size = new System.Drawing.Size(109, 23);
+            this.DexterityLabel.Size = new System.Drawing.Size(80, 20);
             this.DexterityLabel.TabIndex = 2;
             this.DexterityLabel.Text = "Dexterity";
             // 
             // StrengthTextBox
             // 
             this.StrengthTextBox.BackColor = System.Drawing.Color.White;
-            this.StrengthTextBox.Location = new System.Drawing.Point(9, 75);
-            this.StrengthTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.StrengthTextBox.Location = new System.Drawing.Point(7, 61);
             this.StrengthTextBox.Name = "StrengthTextBox";
             this.StrengthTextBox.ReadOnly = true;
-            this.StrengthTextBox.Size = new System.Drawing.Size(168, 31);
+            this.StrengthTextBox.Size = new System.Drawing.Size(127, 26);
             this.StrengthTextBox.TabIndex = 1;
             this.StrengthTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // StrengthLabel
             // 
             this.StrengthLabel.AutoSize = true;
-            this.StrengthLabel.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.StrengthLabel.Location = new System.Drawing.Point(9, 43);
-            this.StrengthLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.StrengthLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StrengthLabel.Location = new System.Drawing.Point(7, 35);
             this.StrengthLabel.Name = "StrengthLabel";
-            this.StrengthLabel.Size = new System.Drawing.Size(103, 23);
+            this.StrengthLabel.Size = new System.Drawing.Size(79, 20);
             this.StrengthLabel.TabIndex = 0;
             this.StrengthLabel.Text = "Strength";
             // 
             // NextButton
             // 
-            this.NextButton.Font = new System.Drawing.Font("Lucida Sans", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NextButton.Location = new System.Drawing.Point(480, 518);
-            this.NextButton.Margin = new System.Windows.Forms.Padding(4);
+            this.NextButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NextButton.Location = new System.Drawing.Point(360, 421);
             this.NextButton.Name = "NextButton";
-            this.NextButton.Size = new System.Drawing.Size(151, 49);
+            this.NextButton.Size = new System.Drawing.Size(113, 40);
             this.NextButton.TabIndex = 3;
             this.NextButton.Text = "Next";
             this.NextButton.UseVisualStyleBackColor = true;
@@ -229,14 +213,16 @@
             // 
             // AbilityGeneratorForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(672, 592);
+            this.ClientSize = new System.Drawing.Size(504, 481);
+            this.ControlBox = false;
             this.Controls.Add(this.NextButton);
             this.Controls.Add(this.AbilityGroupBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "AbilityGeneratorForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ability Generator";

@@ -19,12 +19,18 @@ namespace COMP1004_F2016_Mid_Term_200281238
 {
     public partial class GenerateNameForm : Form
     {
+        /// <summary>
+        /// Form constructor
+        /// </summary>
         public GenerateNameForm()
         {
             InitializeComponent();
             GenerateNames();
         }
 
+        /// <summary>
+        /// Generate random names based on the length of the list of names.
+        /// </summary>
         private void GenerateNames()
         {
             Random random = new Random();
@@ -35,15 +41,25 @@ namespace COMP1004_F2016_Mid_Term_200281238
             LastNameTextBox.Text = LastNameListBox.Items[lastNameRandomNumber].ToString();
         }
 
+        /// <summary>
+        /// Handle the generating of names.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void GenerateButton_Click(object sender, EventArgs e)
         {
             GenerateNames();
-            Program.character.FirstName = FirstNameTextBox.Text;
-            Program.character.LastName = LastNameTextBox.Text;
         }
 
+        /// <summary>
+        /// Send off to the next form
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void NextButton_Click(object sender, EventArgs e)
         {
+            Program.character.FirstName = FirstNameTextBox.Text;
+            Program.character.LastName = LastNameTextBox.Text;
             AbilityGeneratorForm abilityGeneratorForm = new AbilityGeneratorForm();
             abilityGeneratorForm.Show();
             this.Hide();

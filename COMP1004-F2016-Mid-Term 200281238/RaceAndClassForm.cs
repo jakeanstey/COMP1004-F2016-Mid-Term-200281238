@@ -22,18 +22,43 @@ namespace COMP1004_F2016_Mid_Term_200281238
     {
         public AbilityGeneratorForm previousForm;
         private string _selectedRace;
+        private Character _myCharacter;
 
-
+        /// <summary>
+        /// Constructor for the race selector class. 
+        /// </summary>
         public RaceAndClassForm()
         {
             InitializeComponent();
+            _myCharacter = Program.character;
+            if(_myCharacter.Race != null)
+            {
+                switch (_myCharacter.Race)
+                {
+                    case "Human":
+                        HumanRadioButton.Select();
+                        break;
+                    case "Elf":
+                        ElfRadioButton.Select();
+                        break;
+                    case "Dwarf":
+                        DwarfRadioButton.Select();
+                        break;
+                    case "Halfling":
+                        HalflingRadioButton.Select();
+                        break;
+                }                        
+            }
         }
 
+        /// <summary>
+        /// Triggered when the back button is clicked.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void BackButton_Click(object sender, EventArgs e)
         {
-            Character character = Program.character;
-
-            character.Race = this._selectedRace;
+            _myCharacter.Race = this._selectedRace;
 
             // Step 1 - show the parent form
             this.previousForm.Show();
@@ -51,6 +76,8 @@ namespace COMP1004_F2016_Mid_Term_200281238
 
         private void NextButton_Click(object sender, EventArgs e)
         {
+            _myCharacter.Race = this._selectedRace;
+
             FinalForm finalForm = new FinalForm();
             finalForm.previousForm = this;
 
