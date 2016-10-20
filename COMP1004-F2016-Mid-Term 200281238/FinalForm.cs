@@ -1,10 +1,11 @@
 ﻿/**
- * Midterm Exam
- * Jake Anstey 200281238
- * October 20, 2016
- * This app is the start to creating a Dungeons and Dragons game.
- */
+* Midterm Exam
+* Jake Anstey 200281238
+* October 20, 2016
+* This app is the start to creating a Dungeons and Dragons game.
+*/
 
+using COMP1004_F2016_Mid_Term_200281238.Properties;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -38,6 +39,8 @@ namespace COMP1004_F2016_Mid_Term_200281238
             WisdomTextBox.Text = _myCharacter.Wisdom;
             CharismaTextBox.Text = _myCharacter.Charisma;
             RaceTextBox.Text = _myCharacter.Race;
+
+            RacePictureBox.Image = (Image)Resources.ResourceManager.GetObject(_myCharacter.Race + "_Male");
         }
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)

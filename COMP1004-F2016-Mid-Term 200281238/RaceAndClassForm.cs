@@ -1,10 +1,12 @@
-﻿/**
- * Midterm Exam
- * Jake Anstey 200281238
- * October 20, 2016
- * This app is the start to creating a Dungeons and Dragons game.
- */
+﻿
 
+using COMP1004_F2016_Mid_Term_200281238.Properties;
+/**
+* Midterm Exam
+* Jake Anstey 200281238
+* October 20, 2016
+* This app is the start to creating a Dungeons and Dragons game.
+*/
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -21,7 +23,7 @@ namespace COMP1004_F2016_Mid_Term_200281238
     public partial class RaceAndClassForm : Form
     {
         public AbilityGeneratorForm previousForm;
-        private string _selectedRace;
+        private string _selectedRace = "Human";
         private Character _myCharacter;
 
         /// <summary>
@@ -49,6 +51,7 @@ namespace COMP1004_F2016_Mid_Term_200281238
                         break;
                 }                        
             }
+            UpdatePictureBox();
         }
 
         /// <summary>
@@ -72,6 +75,12 @@ namespace COMP1004_F2016_Mid_Term_200281238
             RadioButton selectedRace = (RadioButton)sender;
 
             this._selectedRace = selectedRace.Text;
+            UpdatePictureBox();
+        }
+
+        private void UpdatePictureBox()
+        {
+            RacePictureBox.Image = (Image)Resources.ResourceManager.GetObject(this._selectedRace + "_Male");
         }
 
         private void NextButton_Click(object sender, EventArgs e)
